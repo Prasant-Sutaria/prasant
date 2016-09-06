@@ -16,7 +16,7 @@ As a user of iScorer, one should be able to create his or her player profile.
       And User provides the following personal information <Short Description>, <Batting Style> and <Bowling Style>
      Then A new Player is created.
       And Following information are initialized to default:
-      | Information                   | Dafault Value | 
+      | Information                   | Default Value | 
       | Total Man of the Match        | YTP           | 
       | Total Run Scored              | YTP           | 
       | Total Catches                 | YTP           | 
@@ -31,6 +31,7 @@ As a user of iScorer, one should be able to create his or her player profile.
       | Highest Teams Grade Hat trick | YTP           | 
       | Highest Tournament Played     | YTP           | 
       | Teams played for              | YTP           | 
+      | Player Active                 | True          | 
   
     Examples: User's Input
       | Identification Provider | User ID                   | Password  | Short Description            | Batting Style | Does Bowling | Bowling Style   | 
@@ -45,4 +46,5 @@ As a user of iScorer, one should be able to create his or her player profile.
   
     Examples: User's Input
       | Identification Provider | User ID | Password | Information | New Values | 
+  
   
