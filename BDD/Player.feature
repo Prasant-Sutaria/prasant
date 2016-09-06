@@ -37,6 +37,7 @@ As a user of iScorer, one should be able to create his or her player profile.
       | Facebook                | prasant.me4u@gmail.com    | Password1 | I am a right handed bats men | Right Handed  | Yes          | Right Hand Fast | 
       | Google                  | prasant.sutaria@gmail.com | Password1 | I am a Left handed bats men  | Left Handed   | Yes          | Right Hand Spin | 
   
+  @Cricket @Football
   Scenario Outline: Player should be able to update its personal information.
     Given User identified by <Identification Provider> having <User ID> and <Password> "does" exists.
      When User updates it personal information(s) <Information> to <New Values>.
@@ -44,3 +45,4 @@ As a user of iScorer, one should be able to create his or her player profile.
   
     Examples: User's Input
       | Identification Provider | User ID | Password | Information | New Values | 
+  
